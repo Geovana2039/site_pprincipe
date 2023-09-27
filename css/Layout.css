@@ -1,0 +1,275 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+body{
+    font-family:unset;
+    background-color: #010A60;
+}
+.header img{
+    width: 100%;
+}
+header{ 
+    width:100%;
+    background-size:cover;
+    background-position:left;
+    background-color: #010A60;
+    margin: 0 auto; 
+}
+.navegacao{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    background-color: #010A60;
+    overflow:hidden;  
+}
+.navegacao a{
+   float:right;
+   display:block; 
+   color: #DDA80C;
+   padding-right: 25px;
+   text-decoration: none;
+   text-align: center;
+   font-size: 30px;
+}
+a:hover {
+     color: #9b9cb7;
+}
+
+ main{
+    position:static;
+    background-image:url(../img/fundo.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    background-color: #010A60;
+    margin: 0 auto; 
+}
+
+.main h1{
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 0px;
+  
+} 
+
+.main p{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 70px;
+    color: #DDA80C;
+    display: block;
+    margin-left: 20px;
+}
+.main b{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    color: #DDA80C;
+    display: block;
+}
+
+.main h3{
+     float: left;
+    position:static;
+    font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    padding-top: 15px;
+    text-align:justify;
+    display: block;
+    font-size: 15px;
+}
+/* Inicio */
+#autor,#biografia {
+    padding-top:20px;
+    display: inline-block;
+    width: 35%;
+    margin-left: 140px;
+    vertical-align: top;
+    text-align:justify;
+}
+.titulo{
+    margin-left: 7rem;
+}
+.txt_fofo{
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+}
+.txt_fofo h2{
+    color: #DDA80C;
+    margin-top: 5px;
+    margin-left:20px;
+}
+
+.txt_fofo b{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/* História.html */
+#livro, #resumo{
+    display: inline-block;
+    width: 35%;
+    margin-left: 195px;
+    vertical-align: top;
+}
+.vendaslivros{
+    background-color: #83b8de;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000741;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 30px;
+    text-align: center;
+}
+.imagem img{
+    margin-top: 30px;
+    display: inline-block;
+    width: 150px;
+    align-items: center center;
+    padding-right: 35px;
+    margin-inline-start: 60px;
+    margin-inline-end: 30px;
+}
+#h{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-right: 10px;
+    align-items: center;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+}
+.vendaslivros h4{
+    display: inline-block;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000741;
+    position: relative;
+    padding-top: 10px;
+    margin: 1.5rem;
+    width: 200px;
+    align-items: center;
+    vertical-align: top;
+    
+}  
+
+.copiasano, .copiasfranca, .traducao{
+    display: inline-block;
+    width: 32%;
+}
+
+.fenomenog img{
+    width: 100%;
+}
+
+#fim{
+    color: #d4a928f4;
+    text-align: center;
+}
+/* Planetas */
+.planetas{
+    padding-left: 150px;
+    padding-right: 10px;
+    padding-top: 2rem;
+    align-items: center;
+}
+
+  #b612 {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  #b325 {
+    display: inline-block;
+    
+  }
+  
+  #b326 {
+    display: inline-block;
+  }
+  
+  #b326 {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  
+  #b327 {
+    display: inline;
+    vertical-align: bottom;
+  }
+  
+  #b328 {
+    display: inline-block;
+  }
+  
+  #b329 {
+    display: inline-block;
+  }
+  
+  #b330 {
+    display: inline-block;
+  }
+  #terra{
+    display: inline-block;
+  }
+.voltar{
+     border-radius: 15px;
+    margin-left: 47.5%;
+    background-color: #83b8de;
+    width: 100px;
+    height: 40px;
+}
+#volt h1{
+    
+    text-align: center;
+    margin: 0%;
+    padding-left: 0px;
+    padding-right: 0%;
+
+}
+  /* loja */
+.main iframe{
+    padding-left: 175px;
+    padding-right: 160px;
+    margin-top: 0px;
+}
+.rodape img{
+    position:absolute;
+    padding-left: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.links{
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    color: #9b9cb7;
+}
+.sites1 a{
+    color: #DDA80C;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    font-size: 20px;
+    display:block;
+    padding-right: 10px;
+ }  
+h4{ 
+    color: #9b9cb7;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 2px;
+    display:block;
+font-size: x-small;}
+
+.sabe_mais{
+    width: fit-content;
+    margin: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .column {
+      width: 100%;
+    }
+  }
